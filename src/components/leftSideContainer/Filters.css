@@ -1,0 +1,20 @@
+.loading {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    height: "320px";
+}
+
+.fade-in-heading {
+    opacity: 0; /* Start with 0 opacity */
+    animation: fadeIn 1s ease-in-out forwards; /* Apply the animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

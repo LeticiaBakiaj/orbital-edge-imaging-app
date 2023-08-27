@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+ 
+ h1 {
+  font-size: 24px;
+  margin: 0;
+}
+ 
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+ 
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-leftSide{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
